@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs (frontend -> web/, PyInstaller -> build/ + dist/)
+web/
+build/
+dist/
+*.tsbuildinfo
+__pycache__/
+
+# Runtime files
+*.log
+*.lock
+*.tmp
+presence/
+
+# Old one-off patch scripts (kept locally, not versioned)
+add_ui.py
+fix_*.py
+implement_ping.py
+patch_*.py
+restrict_roles*.py
+test_*.py
+update_*.py
+error_state.png
